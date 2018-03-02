@@ -64,9 +64,9 @@ Now let's tie it all together:
 $ iverilog -o counter_chip.out counter_tb.v counter.v  
 $ vvp counter_chip.out  
 ```  
-3. Now we can invoke GTKwave to view the waveform output of our simulated counter.  This assumes you have aliased the full path of the GTKwave executable to _gtkwave_:  
+3. Now we can invoke GTKwave to view the waveform output of our simulated counter.  The path of GTKwave is dependant on your system.  I recommend just aliasing it to _gtkwave_ in your shell:  
 ```shell  
-$ gtkwave test.vcd
+$ /Applications/gtkwave.app/Contents/Resources/bin/gtkwave test.vcd
 ```  
 4. This should open the GUI application.  Click "test" in the upper left and expand.
 5. Right click on c1 and choose "Insert"
