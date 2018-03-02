@@ -35,7 +35,7 @@ $ brew install caskroom/cask/gtkwave
 3. That probably didn't work so let's try to manually install.
 
 #### Other Method
-1. Download [GTKwave](https://github.com/grantslape/txstate-iverilog/gtkwave.zip) from a kind individual
+1. Download [GTKwave](https://github.com/grantslape/txstate-iverilog/raw/master/gtkwave.zip) from a kind individual
 2. Unzip the application and move it to your Applications folder:
 ```shell
 $ unzip gtkwave.zip  
