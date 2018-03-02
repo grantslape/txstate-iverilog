@@ -4,7 +4,7 @@ This repo is to help CS3339 students at Texas State University learn the basics 
 There is an installation guide located at http://iverilog.wikia.com/wiki/Installation_Guide where much of this information is derived from.  Basic familiarity with the command line is assumed.
 
 ## Usage
-You can check out the basic user guide [here](http://iverilog.wikia.com/wiki/User_Guide).  Included in this repository are some basic files: a hello world and a counter.  If you are getting this from another source, check out (this article)[http://iverilog.wikia.com/wiki/Getting_Started] where the files are also listed:
+You can check out the basic user guide [here](http://iverilog.wikia.com/wiki/User_Guide).  Included in this repository are some basic files: a hello world and a counter.  If you are getting this from another source, check out [this article](http://iverilog.wikia.com/wiki/Getting_Started) where the files are also listed:
 ```shell
 $ iverilog -o hello.out hello.v
 $ vvp hello.out
@@ -35,7 +35,7 @@ $ brew install caskroom/cask/gtkwave
 3. That probably didn't work so let's try to manually install.
 
 #### Other Method
-1. Download (GTKwave)[https://github.com/grantslape/txstate-iverilog/gtkwave.zip] from a kind individual
+1. Download [GTKwave](https://github.com/grantslape/txstate-iverilog/gtkwave.zip) from a kind individual
 2. Unzip the application and move it to your Applications folder:
 ```shell
 $ unzip gtkwave.zip  
